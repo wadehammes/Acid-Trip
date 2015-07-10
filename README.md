@@ -4,7 +4,7 @@ This plugin provides a gradient background that follows your mouse movements.
 
 Usage:
 
-Add the JS in the footer before the <code></body></code> tag:
+Add the JS in the footer before close of the body tag:
 ```
 <script async type="text/javascript" src="path/to/jquery"></script>
 <script async type="text/javascript" src="acid.min.js"></script>
