@@ -1,12 +1,32 @@
-body {
-  background-color: #E82C0C;
-}
-
+@import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
 
 $cursor-crosshair-value: crosshair;
 $cubic-bezier: cubic-bezier(0.55, 0.46, 0.15, 0.99);
 $dimension: 250;
 $transition: 2s;
+
+html, body {
+  background-color: #0DFF93;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  &:hover {
+    .acid-text {
+      opacity: 0.6;
+    }
+  }
+}
+
+.acid-text {
+  font-family: 'Crafty Girls', cursive;
+  font-size: 15vw;
+  position: relative;
+  z-index: 2;
+  color: rgba(white, 0.2);
+  opacity: 0;
+  transition: opacity $transition $cubic-bezier;
+}
 
 .acid {
   position: relative;
@@ -28,7 +48,7 @@ $transition: 2s;
     }
 
     &.on {
-      opacity: 1;
+      opacity: 0.8;
     }
   }
 }

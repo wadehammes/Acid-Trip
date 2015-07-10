@@ -36,7 +36,8 @@ NOTE: if you update the element, gradient or override the js, you need to make s
 
 ...and make sure it has a fun background color!
 
-Demo:
-Coming soon (but here is a screencast: [Lame Screencast](http://via.wade.today/3s2I463Y2U1l))
+Demo
+===
+[Check it here](http://wadehammes.com/acid-trip/)
 
 ** Not a real acid trip obviously.
