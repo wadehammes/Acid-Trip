@@ -1,0 +1,29 @@
+$cursor-crosshair-value: crosshair;
+$cubic-bezier: cubic-bezier(0.55, 0.46, 0.15, 0.99);
+$dimension: 250;
+$transition: 2s;
+
+.acid {
+  position: relative;
+
+  .trip {
+    background: transparent;
+    height: #{$dimension}%;
+    height: #{$dimension}vh;
+    margin-left: -150%;
+    margin-top: -180%;
+    opacity: 0;
+    transition: opacity $transition $cubic-bezier;
+    width: #{$dimension}%;
+    width: #{$dimension}vw;
+    z-index: 1;
+
+    &:hover {
+      cursor: $cursor-crosshair-value;
+    }
+
+    &.on {
+      opacity: 1;
+    }
+  }
+}
