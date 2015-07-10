@@ -1,4 +1,4 @@
-Acid Trip*
+Acid Trip**
 ===
 This plugin provides a gradient background that follows your mouse movements.
 
@@ -26,3 +26,5 @@ Add the JS in the footer before the <code></body></code> tag:
 
 Demo:
 Coming soon (but here is a screencast: [Lame Screencast](http://via.wade.today/3s2I463Y2U1l))
+
+** Not a real acid trip obviously.
